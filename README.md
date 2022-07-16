@@ -38,7 +38,7 @@ This would start sending the data to Redis and to verify we can check our pipeli
 
 ## Building the consumer and consuming data
 As we’ve built a pipeline and a producer which can keep putting data to the pipeline independent of data consumption we are more than halfway through all we need to get data from the data pipeline and consume it according to our needs to call it a project.
-we create a new directory in root , name it consumer and create a new file with the name quotes_consumer.py in it.
+we create a new directory in root , name it consumer and create a new file with the name **quotes_consumer.py** in it.
 
 
 
