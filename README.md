@@ -1,5 +1,5 @@
 
-![example event parameter](https://github.com/github/actions/workflows/codeql-analysis.yml/badge.svg?event=push)
+
 
 ## Introduction
 
