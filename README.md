@@ -31,6 +31,9 @@ Redis was installed and made to run
 
 Wrappers are created around Redis functions to make them more humane. Let’s start with creating a directory in root with a name pipeline and create a new file **redis_client.py**.This client implements FIFO for the pipeline.
 
+## Ingestion of data from the producer
+
+With the pipeline created,we can start putting our data into that from the data producer side. For that, we need to create a pipeline in scrapy which adds every scraped item to Redis and we consume it later. we add the code to the **pipelines.py** the file of scrapy project.
 
 
 
