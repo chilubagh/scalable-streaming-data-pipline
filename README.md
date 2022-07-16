@@ -34,6 +34,9 @@ Wrappers are created around Redis functions to make them more humane. Let’s st
 ## Ingestion of data from the producer
 
 With the pipeline created,we can start putting our data into that from the data producer side. For that, we need to create a pipeline in scrapy which adds every scraped item to Redis and we consume it later. we add the code to the **pipelines.py** the file of scrapy project.
+This would start sending the data to Redis and to verify we can check our pipeline with **redis-cli** and type LLEN 'DATA-PIPELINE-KEY’ to see the number of quotes in the data pipeline.
+
+
 
 
 
