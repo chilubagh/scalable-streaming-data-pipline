@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-Building a Highly Scalable Data Streaming Pipeline in Python
 
-## Introduction
-
-Data streaming is part of a data engineers job.In this project, I am going to build a very simple and highly scalable data streaming pipeline using Python. Data streaming is the process of transmitting a continuous flow of data.
-
-# (https://user-images.githubusercontent.com/51442225/179332300-80b9eb84-30c7-475d-96eb-459b7a13ee5b.png)
 
 ## Introduction
 
@@ -28,4 +21,16 @@ I run the command given below to create an empty Scrapy project.
 
 `scrapy startproject producer`
 
-> > > > > > > 586004c78c201eb23e9570bc43f0f084ad355ce8
+Our data producer side is ready now but we need to put that data into a data pipeline instead of in a file. Before putting data into a data pipeline we need to build a data pipeline before.
+
+## The redis pipeline
+
+Redis was installed and made to run
+
+<img width="1425" alt="Screenshot 2022-07-16 at 23 34 57" src="https://user-images.githubusercontent.com/51442225/179371178-21e0ad6b-812b-47dc-8f56-a1139fcd1ce1.png">
+
+Wrappers are created around Redis functions to make them more humane. Let’s start with creating a directory in root with a name pipeline and create a new file **redis_client.py**.This client implements FIFO for the pipeline.
+
+
+
+
