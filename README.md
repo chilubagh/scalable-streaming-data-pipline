@@ -21,4 +21,14 @@ I run the command given below to create an empty Scrapy project.
 
 `scrapy startproject producer`
 
+Our data producer side is ready now but we need to put that data into a data pipeline instead of in a file. Before putting data into a data pipeline we need to build a data pipeline before.
+
+## The redis pipeline
+
+Redis was installed and made to run
+
+![Redis]<img width="1425" alt="Screenshot 2022-07-16 at 23 34 57" src="https://user-images.githubusercontent.com/51442225/179371178-21e0ad6b-812b-47dc-8f56-a1139fcd1ce1.png">
+
+
+
 
