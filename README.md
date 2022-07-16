@@ -15,3 +15,6 @@ I will be using Redis as data pipeline and using a very simple data scraping mic
 
 ## Building the data Producer
 I am building a simple python project with scrapy in a virtual environment.
+I run the command given below to create an empty Scrapy project.
+
+`scrapy startproject producer`
