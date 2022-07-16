@@ -29,6 +29,8 @@ Redis was installed and made to run
 
 <img width="1425" alt="Screenshot 2022-07-16 at 23 34 57" src="https://user-images.githubusercontent.com/51442225/179371178-21e0ad6b-812b-47dc-8f56-a1139fcd1ce1.png">
 
+Wrappers are created around Redis functions to make them more humane. Let’s start with creating a directory in root with a name pipeline and create a new file **redis_client.py**.This client implements FIFO for the pipeline.
+
 
 
 
