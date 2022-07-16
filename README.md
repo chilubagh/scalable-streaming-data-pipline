@@ -14,6 +14,25 @@ One side of the pipeline would have some or at least one data producer who would
 
 I will be using Redis as data pipeline and using a very simple data scraping microservice using Scrapy independently as a data producer and a separate microservice as a data consumer.
 
+## Installation
+Install the Redis and run it locally.
+
+Clone the repository.
+ `git clone git@github.com:chilubagh/scalable-streaming-data-pipline.git`
+
+Install the requirements.
+
+`pip install -r requirements.txt`
+You are good to go!
+
+Quick start
+`Start the producer quotes_spider:
+cd producer`
+scrapy crawl quotes
+Start the consumer quotes_consumer:
+`cd consumer`
+python quotes_consumer.py
+
 ## Building the data Producer
 
 I am building a simple python project with scrapy in a virtual environment.
