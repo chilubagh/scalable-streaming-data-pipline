@@ -1,5 +1,6 @@
 
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+![example event parameter](https://github.com/github/actions/workflows/codeql-analysis.yml/badge.svg?event=push)
+
 ## Introduction
 
 Data streaming is part of a data engineers job.In this project, I am going to build a very simple and highly scalable data streaming pipeline using Python. Data streaming is the process of transmitting a continuous flow of data.
