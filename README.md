@@ -36,6 +36,11 @@ Wrappers are created around Redis functions to make them more humane. Let’s st
 With the pipeline created,we can start putting our data into that from the data producer side. For that, we need to create a pipeline in scrapy which adds every scraped item to Redis and we consume it later. we add the code to the **pipelines.py** the file of scrapy project.
 This would start sending the data to Redis and to verify we can check our pipeline with **redis-cli** and type LLEN 'DATA-PIPELINE-KEY’ to see the number of quotes in the data pipeline.
 
+## Building the consumer and consuming data
+As we’ve built a pipeline and a producer which can keep putting data to the pipeline independent of data consumption we are more than halfway through all we need to get data from the data pipeline and consume it according to our needs to call it a project.
+we create a new directory in root , name it consumer and create a new file with the name **quotes_consumer.py** in it.
+After this step, we can run scrapy spider and consumer independently which helps us in streaming data at a very high speed as data production and consumption are independent of each other.
+
 
 
 
