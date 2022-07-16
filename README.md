@@ -26,9 +26,10 @@ Install the requirements.
 You are good to go!
 
 Quick start
-`Start the producer quotes_spider:
 
-cd producer`
+`Start the producer quotes_spider`:
+
+`cd producer`
 
 scrapy crawl quotes
 Start the consumer quotes_consumer:
