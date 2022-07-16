@@ -21,4 +21,4 @@ I run the command given below to create an empty Scrapy project.
 
 `scrapy startproject producer`
 
-> > > > > > > 586004c78c201eb23e9570bc43f0f084ad355ce8
+
