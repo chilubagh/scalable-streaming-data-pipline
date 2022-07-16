@@ -27,10 +27,14 @@ You are good to go!
 
 Quick start
 `Start the producer quotes_spider:
+
 cd producer`
+
 scrapy crawl quotes
 Start the consumer quotes_consumer:
+
 `cd consumer`
+
 python quotes_consumer.py
 
 ## Building the data Producer
